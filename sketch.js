@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-    background(3,244, 252);
+    background(3,244, 252, 20);
     let targetX = mouseX;
     x += (targetX - x) * easing;
     
